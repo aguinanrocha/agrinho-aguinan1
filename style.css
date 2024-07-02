@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(181, 255, 44);
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(0, 0, 0);
+
+}
+.pagina1{
+    text-align: center;
+    overflow: auto;
+}
+#pinhao1{
+    border: 10px solid rgb(102, 32, 0);
+    display: block;
+    float: left;    /* Faz a imagem flutuar para a esquerda */
+    margin-right: 100px; /* Margem à direita para separar a imagem da lista */
+    width: 90%; /*tamanho da imagem*/
+}
+
+.header {
+    height: 150px; /* Altura desejada para o seu cabeçalho */
+    position: relative; /* Define a posição do elemento pai para permitir posicionamento absoluto do filho (a imagem) */
+}
+
+.header img {
+    width: auto; /* Garante que a largura da imagem seja ajustada automaticamente */
+    height: 93%; /* Define a altura da imagem como 100% em relação à altura do cabeçalho */
+    position: absolute; /* Posiciona a imagem de forma absoluta dentro do cabeçalho */
+    top: 0; /* Alinha a parte superior da imagem com a parte superior do cabeçalho */
+    left: 0; /* Alinha a parte esquerda da imagem com a parte esquerda do cabeçalho */
+    object-fit: cover; /* Ajusta o tamanho da imagem para cobrir completamente o espaço disponível */
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+.titulo1{
+    background: cornsilk;
+}
+.titulo2{
+    background: rgb(240, 241, 239);
+
+}
+#pinhao{
+    border: 5px solid rgb(102, 32, 0)
+}
+
+.produto1 li{
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    border-radius: 100px;
+    border-style: bold;
+    float: left;
+}
+.produto2 li{
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 100px;
+    border-style: bold;
+    float: right;
+    
+}
+.produto3 li{
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: auto;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 100px;
+    border-style: bold;
+}
+
